@@ -5,14 +5,14 @@
   grid-template-columns: 1fr;
 
   @include two-columns {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 200px);
   }
 
   @include three-columns {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px);
   }
 
   @include four-columns {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 200px);
   }
 }

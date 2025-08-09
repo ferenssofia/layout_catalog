@@ -4,3 +4,9 @@
 @import './blocks/card';
 @import './blocks/stars';
 @import './blocks/catalog';
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
