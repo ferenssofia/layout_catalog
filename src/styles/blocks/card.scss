@@ -38,6 +38,7 @@ body {
     font-size: 12px;
     line-height: 18px;
     margin: 0 0 4px;
+    transition: color 0.3s;
 
     &:hover {
       color: #34568b;
@@ -70,6 +71,7 @@ body {
     color: #fff;
     border-radius: 5px;
     text-align: center;
+    transition: color 0.3s, background-color 0.3s;
 
     &:hover {
       color: #00acdc;
